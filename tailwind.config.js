@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'l-1': "url('/public/images/parallaxAssets/l-1.png')",
+        'l-1': "url('/public/images/parallax/l-1.png')",
       },
       spacing: {
         '200': '2048px',

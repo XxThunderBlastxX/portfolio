@@ -3,12 +3,96 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply bg-[#070017] text-gray-300;
-  }
+    /*Color Palette - https://colorhunt.co/palette/1a1a402700827a0bc0fa58b6 */
+    body {
+        @apply bg-[#10022A] text-gray-300;
+        width: 100vw;
+        overflow-x: hidden;
+
+    }
 }
 
 @font-face {
-  font-family: "Collonse";
-  src: url("/fonts/Collonse Bold.ttf");
+    font-family: "Collonse";
+    src: url("/fonts/Collonse Bold.ttf");
+}
+
+.parallax {
+    width: 100vw;
+    height: 100vh;
+}
+
+.sky {
+    background: url("/images/parallax/sky.png");
+    background-size: 100% 100%;
+    background-position: center center;
+
+}
+
+.home {
+    background: url("/images/parallax/home.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 114%;
+    height: 105vh;
+    left: -7% !important;
+    top: -4vh !important;
+    aspect-ratio: 16/9;
+
+}
+
+.mountain2 {
+    background: url("/images/parallax/mountain2.png");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.tree1 {
+    background: url("/images/parallax/tree1.png");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.tree2 {
+    background: url("/images/parallax/tree2.png");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.tree3 {
+    background: url("/images/parallax/tree3.png");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.tree4 {
+    background: url("/images/parallax/tree4.png");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.moon {
+    background: url("/images/parallax/moon.png");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.glowFlare {
+    background: url("/images/parallax/glowFlare.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    opacity: 0.50;
+}
+
+.glow {
+    background: url("/images/parallax/glow.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    opacity: 0.35;
+}
+
+.mountain1 {
+    background: url("/images/parallax/mountain1.png");
+    background-size: 100% 100%;
+    background-position: center center;
 }
