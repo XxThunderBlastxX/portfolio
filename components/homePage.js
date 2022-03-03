@@ -34,8 +34,8 @@ function HomePage(props) {
 
 
             </section>
-            <div className={"absolute top-1/4 left-0 w-2/5 bg-black/[0.3] px-6 py-5 rounded-r-lg"}>
-                <div className={"lg:text-5xl md:text-4xl sm:text-3xl font-NovoMono flex items-center grid"}>
+            <div className={"absolute top-1/4 left-0 w-6/12 bg-black/[0.3] px-6 py-5 rounded-r-lg"}>
+                <div className={"lg:text-6xl md:text-5xl sm:text-4xl font-NovoMono flex items-center grid"}>
                     <div className={"bounce__text"}>
                         <div className={"font-black"}>H</div>
                         <div className={"font-black"}>i</div>
