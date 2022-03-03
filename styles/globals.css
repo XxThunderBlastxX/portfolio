@@ -101,3 +101,12 @@
     background-size: 100% 100%;
     background-position: center center;
 }
+
+.fade {
+    background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, rgba(67, 81, 153, 1) 25%, rgba(67, 81, 153, 1) 75%, rgba(72, 39, 119, 1) 100%);
+    position: absolute;
+    bottom: -5vh !important;
+    top: inherit !important;
+    width: 114%;
+    left: -7% !important;
+}
