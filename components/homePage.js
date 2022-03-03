@@ -5,9 +5,6 @@ function HomePage(props) {
     useEffect(() => {
         let scene = document.getElementById('scene');
         let parallaxInstance = new window.Parallax(scene);
-
-        let box = document.getElementById('box');
-        new window.Parallax(box);
     }, []);
 
     return (
@@ -31,8 +28,6 @@ function HomePage(props) {
                 <div data-depth="0.5" className={"glow  w-full h-screen absolute left-0 top-0"}/>
                 {/*TODO:- Need to fade the box at end*/}
                 <div data-depth="0.5" className={"h-16 absolute fade"}/>
-
-
             </section>
             <div className={"absolute top-1/4 left-0 w-6/12 bg-black/[0.3] px-6 py-5 rounded-r-lg"}>
                 <div className={"lg:text-6xl md:text-5xl sm:text-4xl font-NovoMono flex items-center grid"}>
@@ -74,8 +69,6 @@ function HomePage(props) {
             <div id={"box"} className={"relative"} data-friction-y="0.015" data-friction-x="0.0205" data-scalar-y={"8"}>
             </div>
         </>
-
-
     );
 }
 
