@@ -18,7 +18,7 @@
 
 .bounce__text div:hover {
     color: rgb(92, 255, 160);
-    animation: animate 0.8s;
+    animation: animate 0.70s;
 }
 
 @keyframes animate {

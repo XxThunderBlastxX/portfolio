@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    position: relative;
+    transition: ease-in-out 350ms;
+}
+
+.image img {
+    border-radius: 5px;
+}
+
+.image .overlay {
+    background-color: #745EF5;
+    opacity: 0.4;
+    transition: ease-in-out 350ms;
+}
+
+.image .overlay:hover {
+    opacity: 0;
+}
+
+.image:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.image:after {
+    content: "";
+    display: inline-block;
+    border: 2px solid rgb(92, 255, 160);
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    z-index: -1;
+    width: 99%;
+    height: 16rem;
+    transition: ease-in-out 350ms;
+    border-radius: 5px;
+}
+
+.image:hover:after {
+    width: 102%;
+    height: 16.4rem;
+}
+

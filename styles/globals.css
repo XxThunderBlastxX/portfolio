@@ -8,7 +8,7 @@
         @apply bg-[#10022A] text-gray-300;
         width: 100vw;
         overflow-x: hidden;
-
+        user-select: none;
     }
 }
 

@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/bounce.css'
+import '../styles/aboutMe.css'
 import Script from "next/script";
 
 function MyApp({Component, pageProps}) {
