@@ -10,13 +10,13 @@
     display: flex;
 }
 
-.bounce__text button {
+.bounce__text div {
     background-color: transparent;
     cursor: default;
     display: flex;
 }
 
-.bounce__text button:hover {
+.bounce__text div:hover {
     color: rgb(92, 255, 160);
     animation: animate 0.8s;
 }

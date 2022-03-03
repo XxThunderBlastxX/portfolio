@@ -35,36 +35,36 @@ function HomePage(props) {
 
             </section>
             <div className={"absolute top-1/4 left-0 w-2/5 bg-black/[0.3] px-6 py-5 rounded-r-lg"}>
-                <div className={"text-5xl font-NovoMono flex items-center"}>
+                <div className={"lg:text-5xl md:text-4xl sm:text-3xl font-NovoMono flex items-center grid"}>
                     <div className={"bounce__text"}>
-                        <button className={"font-black"}>H</button>
-                        <button className={"font-black"}>i</button>
-                        <button>,</button>
-                        <button>I</button>
+                        <div className={"font-black"}>H</div>
+                        <div className={"font-black"}>i</div>
+                        <div>,</div>
+                        <div>I</div>
                         <div className={"w-3.5"}/>
-                        <button>a</button>
-                        <button>m</button>
+                        <div>a</div>
+                        <div>m</div>
                         <div className={"w-3.5"}/>
                         <br/>
+                    </div>
+                    <div className={"bounce__text"}>
                         {/* Koustav */}
-                        <button>K</button>
-                        <button>o</button>
-                        <button>u</button>
-                        <button>s</button>
-                        <button>t</button>
-                        <button>a</button>
-                        <button>v</button>
+                        <div>K</div>
+                        <div>o</div>
+                        <div>u</div>
+                        <div>s</div>
+                        <div>t</div>
+                        <div>a</div>
+                        <div>v</div>
                         <div className={"w-3.5"}/>
                         {/* Mondal */}
-                        <button>M</button>
-                        <button>o</button>
-                        <button>n</button>
-                        <button>d</button>
-                        <button>a</button>
-                        <button>l</button>
+                        <div>M</div>
+                        <div>o</div>
+                        <div>n</div>
+                        <div>d</div>
+                        <div>a</div>
+                        <div>l</div>
                     </div>
-
-
                 </div>
                 <p className={"my-5 text-lg font-NovoMono"}>
                     A passionate Student Developer from India, love to code and
