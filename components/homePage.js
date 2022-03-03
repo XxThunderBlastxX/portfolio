@@ -30,9 +30,9 @@ function HomePage(props) {
 
             </section>
             <div className={"absolute top-1/4 left-0 w-2/5 bg-black/[0.3] px-6 py-5 rounded-r-lg"}>
-                <h1 className={"text-5xl "}><span className={"font-bold"}>Hi,</span> I am Koustav
+                <h1 className={"text-5xl font-NovoMono"}><span className={"font-bold"}>Hi,</span> I am Koustav
                     Mondal</h1>
-                <p className={"my-5 text-lg"}>
+                <p className={"my-5 text-lg font-NovoMono"}>
                     A passionate Student Developer from India, love to code and
                     develop new stuffs and contribute to Opensource Project.
                 </p>

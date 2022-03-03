@@ -17,6 +17,11 @@
     src: url("/fonts/Collonse Bold.ttf");
 }
 
+@font-face {
+    font-family: "NovaMono";
+    src: url("/fonts/NovaMono-Regular.ttf");
+}
+
 .parallax {
     width: 100vw;
     height: 100vh;
