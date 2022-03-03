@@ -9,14 +9,15 @@ function HomePage(props) {
 
     return (
         <>
-            <section id={"scene"} data-friction-y="0.015" data-friction-x="0.0205" data-scalar-y={"8"}
+            <section id={"scene"} data-friction-y="0.015" data-friction-x="0.04" data-scalar-y={"6"}
+                     data-scalar-x={"5.4"}
                      className={"parallax w-full h-screen relative"}>
                 <div data-depth="0.4" className={"sky w-full h-screen absolute left-0 top-0"}/>
                 <div data-depth="0.4" className={"mountain2 w-full h-screen absolute left-0 top-0"}/>
-                <div data-depth="0.3" className={"tree4 w-full h-screen absolute left-0 top-0"}/>
+                <div data-depth="0.6" className={"tree4 w-full h-screen absolute left-0 top-0"}/>
                 <div data-depth="0.7"
                      className={"mountain1 w-full h-screen absolute left-0 top-0"}/>
-                <div data-depth="0.3" className={"tree3 w-full h-screen absolute left-0 top-0"}/>
+                <div data-depth="0.5" className={"tree3 w-full h-screen absolute left-0 top-0"}/>
                 <div data-depth="0.3" className={"tree2 w-full h-screen absolute left-0 top-0"}/>
                 <div data-depth="0.7" className={"tree1 w-full h-screen absolute left-0 top-0"}/>
                 <div data-depth="0.8" className={"moon w-full h-screen absolute left-0 top-0"}/>
