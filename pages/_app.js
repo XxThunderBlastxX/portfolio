@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import '../styles/bounce.css'
 import '../styles/aboutMe.css'
 import '../styles/navBar.css'
+import '../styles/contactMe.css'
 import Script from "next/script";
 
 function MyApp({Component, pageProps}) {
