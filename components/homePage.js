@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 
 
-function HomePage(props) {
+function HomePage() {
     useEffect(() => {
         let scene = document.getElementById('scene');
         let parallaxInstance = new window.Parallax(scene);
@@ -27,7 +27,6 @@ function HomePage(props) {
                     style={{left: "-7% !important", top: "-7vh !important"}}/>
                 <div data-depth="0.5" className={"glowFlare w-full h-screen absolute left-0 top-0"}/>
                 <div data-depth="0.5" className={"glow  w-full h-screen absolute left-0 top-0"}/>
-                {/*TODO:- Need to fade the box at end*/}
                 <div data-depth="0.5" className={"h-12 absolute fade"}/>
             </section>
             <div className={"absolute top-1/4 left-0 w-6/12 bg-black/[0.3] px-6 py-5 rounded-r-lg"}>

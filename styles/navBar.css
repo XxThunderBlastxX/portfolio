@@ -1,0 +1,54 @@
+.nav {
+    /*animation*/
+    transition-timing-function: linear;
+    transition: all 0.35s !important;
+
+}
+
+.nav__changeColor {
+    background: linear-gradient(36deg, rgba(72, 39, 119, 1) 17%, rgba(67, 81, 153, 1) 66%);
+    animation: gradient 400ms;
+}
+
+@keyframes gradient {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
