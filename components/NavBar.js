@@ -26,10 +26,10 @@ function NavBar() {
                  height="85"/>
             <div
                 className={"flex justify-between select-none font-NovoMono font-black text-xl text-xl mt-4 tracking-widest"}>
-                <div className={"px-5 "}> &lt;Home/&gt; </div>
-                <div className={"px-5 "}> &lt;About Me/&gt; </div>
-                <div className={"px-5 "}> &lt;Projects/&gt; </div>
-                <div className={"px-5 pr-40 "}> &lt;Contact Me/&gt; </div>
+                <div className={"px-5 "}><a href={'#home'}>&lt;Home/&gt; </a></div>
+                <div className={"px-5 "}><a href={'#about-me'}>&lt;About Me/&gt; </a></div>
+                <div className={"px-5 "}><a href={'#projects'}> &lt;Projects/&gt; </a></div>
+                <div className={"px-5 pr-40 "}><a href={'#contact-me'}> &lt;Contact Me/&gt; </a></div>
             </div>
         </div>
     )

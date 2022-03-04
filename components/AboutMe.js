@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe() {
     return (
-        <section className={"w-full h-screen relative flex justify-center items-center"}>
+        <section id={"about-me"} className={"w-full h-screen relative flex justify-center items-center"}>
             <div className={"flex justify-center items- w-9/12 "}>
                 <div className={"image w-8/12 h-64 m-5 max-w-40 relative"}>
                     <img src={"/images/personal_pic.jpg"} alt={"koustav_pic"}

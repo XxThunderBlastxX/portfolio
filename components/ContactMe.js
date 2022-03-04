@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function ContactMe() {
     return (
-        <section className={"relative justify-center items-center h-screen flex contact font-NovoMono"}>
+        <section id="contact-me" className={"relative justify-center items-center h-screen flex contact font-NovoMono"}>
             {/*<div className={"bounce__text bottom-1/2 text-6xl font-NovoMono pb-8"}>*/}
             {/*    <div className={"font-black"}>C</div>*/}
             {/*    <div className={"font-black"}>o</div>*/}
