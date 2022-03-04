@@ -38,7 +38,8 @@ function AboutMe() {
                         <br/>
                         <br/>
                         I have started learning coding when I was in Class 11 of my School. My first programming
-                        language that I learned was C++. Thereafter I got interest in Coding in solving problems via
+                        language that I learned was C++. Thereafter I developed my interest in Coding in solving
+                        problems via
                         code.
                         <br/>
                         <br/>

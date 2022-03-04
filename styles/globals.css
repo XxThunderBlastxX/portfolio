@@ -11,6 +11,7 @@
         overflow-x: hidden;
         user-select: none;
         background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, #3e427e 35%, #3e427e 65%, rgba(72, 39, 119, 1) 100%);
+        padding-right: 1.1em; /*Scroll Bar*/
     }
 }
 

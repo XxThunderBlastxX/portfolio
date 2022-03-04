@@ -3,6 +3,7 @@ import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import HomePage from "../components/homePage";
 import AboutMe from "../components/AboutMe";
+import ContactMe from "../components/ContactMe";
 
 
 export default function Home() {
@@ -10,7 +11,13 @@ export default function Home() {
         <div>
             <Head>
                 <title>Koustav Mondal</title>
+                <meta charSet="utf-8"/>
                 <meta name="description" content="Portfolio Made with ❤ by Koustav"/>
+                <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="publisher" content="Koustav Mondal"/>
+                <meta name="author" content="Koustav Mondal"/>
+
                 <link rel="icon" href="/favicon/favicon.ico"/>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
@@ -23,6 +30,8 @@ export default function Home() {
             <HomePage/>
             {/*About me */}
             <AboutMe/>
+            {/*Contact Me*/}
+            <ContactMe/>
 
 
         </div>
