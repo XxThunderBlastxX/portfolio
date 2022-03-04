@@ -5,10 +5,12 @@
 @layer base {
     /*Color Palette - https://colorhunt.co/palette/1a1a402700827a0bc0fa58b6 */
     body {
-        @apply bg-[#10022A] text-gray-300;
+        @apply text-gray-300;
+        /*bg-[#10022A]*/
         width: 100vw;
         overflow-x: hidden;
         user-select: none;
+        background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, #3e427e 35%, #3e427e 65%, rgba(72, 39, 119, 1) 100%);
     }
 }
 
@@ -103,7 +105,8 @@
 }
 
 .fade {
-    background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, rgba(67, 81, 153, 1) 25%, rgba(67, 81, 153, 1) 75%, rgba(72, 39, 119, 1) 100%);
+    background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, #3e427e 35%, #3e427e 65%, rgba(72, 39, 119, 1) 100%);
+    filter: blur(7.5px);
     position: absolute;
     bottom: -5vh !important;
     top: inherit !important;
