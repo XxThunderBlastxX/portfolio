@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar'
 import HomePage from "../components/homePage";
 import AboutMe from "../components/AboutMe";
 import ContactMe from "../components/ContactMe";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -32,6 +33,8 @@ export default function Home() {
             <AboutMe/>
             {/*Contact Me*/}
             <ContactMe/>
+            {/*Footer*/}
+            <Footer/>
 
 
         </div>
