@@ -44,6 +44,97 @@ function AboutMe() {
                         code.
                         <br/>
                         <br/>
+                        Some of the technologies I'm familiar with!!
+                        <div className={'flex space-x-28 text-[#5CFFA0FF] familiar-tech'}>
+                            <ul>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>Flutter</span>
+                                </li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>Dart</span></li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>HTML</span>
+                                </li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>CSS</span>
+                                </li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>React</span>
+                                </li>
+
+                            </ul>
+                            <ul>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>TailwindCSS</span>
+                                </li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>Git</span>
+                                </li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>Docker</span>
+                                </li>
+                                <li className={'flex'}>
+                                    <svg className={'mt-1 text-[#5CFFA0FF]'} xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true" role="img" width="1em" height="1em"
+                                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                              d="M715.8 493.5L335 165.1c-14.2-12.2-35-1.2-35 18.5v656.8c0 19.7 20.8 30.7 35 18.5l380.8-328.4c10.9-9.4 10.9-27.6 0-37z"/>
+                                    </svg>
+                                    <span>NextJS</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <br/>
+
                         Currently, I am Working as a <span
                         className={"text-[#5CFFA0FF]"}>Flutter Developer</span> in PhitNest & Beyond.
                         <br/>
