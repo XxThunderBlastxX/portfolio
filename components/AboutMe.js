@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 function AboutMe() {
     return (
@@ -47,14 +48,11 @@ function AboutMe() {
                         className={"text-[#5CFFA0FF]"}>Flutter Developer</span> in PhitNest & Beyond.
                         <br/>
                         <br/>
-                        {/*Here is a list of the technologies that I'm familiar with!*/}
-                        {/*<ul>*/}
-                        {/*    <li>HTML</li>*/}
-                        {/*    <li>CSS</li>*/}
-                        {/*    <li>TailwindCSS</li>*/}
-                        {/*    <li>MaterialUI</li>*/}
-                        {/*    <li>Flutter</li>*/}
-                        {/*</ul>*/}
+                        <button
+                            className={"transition duration-150 ease-out hover:ease-in bg-transparent hover:bg-[#8229B1] text-[#5CFFA0FF] font-semibold hover:text-white py-2 px-4 border border-[#5CFFA0FF] hover:border-transparent rounded hover:shadow-2xl"}>
+                            <Link href="/resume/Koustav_Resume.pdf" download={"Koustav_Resume"}>Download
+                                CV</Link>
+                        </button>
                     </p>
                 </div>
             </div>
