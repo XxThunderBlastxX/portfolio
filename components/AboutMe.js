@@ -6,7 +6,7 @@ function AboutMe() {
         <section id={"about-me"} className={"w-full h-screen relative flex justify-center items-center"}>
             <div className={"flex justify-center items- w-9/12 "}>
                 <div className={"image w-8/12 h-64 m-5 max-w-40 relative"}>
-                    <img src={"/images/personal_pic.jpg"} alt={"koustav_pic"}
+                    <img src={"/images/personal_pic.jpeg"} alt={"koustav_pic"}
                          className={"w-full h-full object-cover absolute"}/>
                     <div className={"absolute overlay w-full h-full"}/>
                 </div>
