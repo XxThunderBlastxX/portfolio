@@ -11,8 +11,51 @@
         overflow-x: hidden;
         user-select: none;
         background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, #3e427e 35%, #3e427e 65%, rgba(72, 39, 119, 1) 100%);
-        padding-right: 1.1em; /*Scroll Bar*/
+        padding-right: 0.32em; /*Scroll Bar*/
     }
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #792bb6;
+    border: 0px none #ffffff;
+    border-radius: 43px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6d19ae;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #5c05a3;
+}
+
+::-webkit-scrollbar-track {
+    background: #757575;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #545454;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #383838;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
 }
 
 @font-face {

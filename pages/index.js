@@ -10,6 +10,9 @@ import Footer from "../components/Footer";
 export default function Home() {
     return (
         <div>
+            <style type="text/css">
+                
+            </style>
             <Head>
                 <title>Koustav Mondal</title>
                 <meta charSet="utf-8"/>
