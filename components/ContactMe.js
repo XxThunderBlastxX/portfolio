@@ -51,7 +51,24 @@ function ContactMe() {
                     </div>
                 </div>
                 <div className={"contact-form"}>
-                    <h2> Send Me Message</h2>
+                    <div
+                        className={"bounce__text bottom-1/2 text-4xl font-NovoMono py-5 text-[#5f0886] "}>
+                        <div className={"contact-form-heading"}>S</div>
+                        <div className={"contact-form-heading"}>e</div>
+                        <div className={"contact-form-heading"}>n</div>
+                        <div className={"contact-form-heading"}>d</div>
+                        <div className={"w-3.5"}/>
+                        <div className={"contact-form-heading"}>M</div>
+                        <div className={"contact-form-heading"}>e</div>
+                        <div className={"w-3.5"}/>
+                        <div className={"contact-form-heading"}>M</div>
+                        <div className={"contact-form-heading"}>e</div>
+                        <div className={"contact-form-heading"}>s</div>
+                        <div className={"contact-form-heading"}>s</div>
+                        <div className={"contact-form-heading"}>a</div>
+                        <div className={"contact-form-heading"}>g</div>
+                        <div className={"contact-form-heading"}>e</div>
+                    </div>
                     <div className={'form-box'}>
                         <div className={"input-box w50"}>
                             <input type={"text"} required={true}/>

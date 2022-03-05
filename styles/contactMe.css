@@ -80,16 +80,14 @@
     position: absolute;
     background: #fff;
     margin-left: 150px;
-    padding: 70px 50px 70px 250px;
+    padding: 20px 50px 70px 250px;
     width: calc(100% - 150px);
     height: 100%;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
 }
 
-.contact-form h2 {
-    color: #0f3959;
-    font-size: 24px;
-    font-weight: 500;
+.contact-form .contact-form-heading:hover {
+    color: #66e098 !important;
 }
 
 .contact-form .form-box {
@@ -121,7 +119,7 @@
     font-weight: 300;
     color: #333;
     border: none;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #5f0886;
     outline: none;
     resize: none;
 }
@@ -137,7 +135,7 @@
     padding: 5px 0;
     font-size: 18px;
     font-weight: 300;
-    color: #333;
+    color: #330444;
     transition: all 0.35s;
     pointer-events: none;
 }
@@ -150,7 +148,7 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #ff568c;
+    color: #8706c4;
 }
 
 .contact-form .form-box .input-box input[type='submit'] {
