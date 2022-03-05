@@ -73,21 +73,12 @@ function ContactMe() {
                             <textarea required={true}/>
                             <span>Message</span>
                         </div>
-                        <div className={" input-box w100"}>
-                            <input type={"submit"} value={'Send'} required={true}/>
+                        <div className={" input-box w100 "}>
+                            <input className={'rounded-lg hover:shadow-2xl'} type={"submit"} value={'Send'}
+                                   required={true}/>
                         </div>
                     </div>
                 </div>
-
-                {/*<input type={"text"} placeholder={"Your Name"} required={"required"}*/}
-                {/*       data-error={"Name is required."}>*/}
-                {/*    */}
-                {/*</input>*/}
-                {/*<input type={"text"} placeholder={"Email"}></input>*/}
-                {/*<input type={"text"} placeholder={"Subject"}></input>*/}
-                {/*<input type={"text"} placeholder={"Message"}></input>*/}
-
-
             </div>
         </section>
     );
