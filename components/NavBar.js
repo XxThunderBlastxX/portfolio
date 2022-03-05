@@ -6,7 +6,6 @@ function NavBar() {
         function onScroll() {
             if (window.scrollY >= 150) {
                 setColorchange(true);
-                console.log('scroll')
             } else {
                 setColorchange(false);
             }

@@ -20,7 +20,6 @@ let transporter = nodemailer.createTransport({
 
 
 export default function handler(req, res) {
-    console.log(req.body)
 
     let mailOptions = {
         from: `Portfolio Contact Form < ${process.env.FROMEMAIL}>`,
@@ -36,7 +35,6 @@ export default function handler(req, res) {
             console.log(err)
             res.send('I am unable to send your email')
         } else {
-            console.log('em ail-sent : ' + info.response)
             return res.status(200).send('your mail was send')
         }
     })

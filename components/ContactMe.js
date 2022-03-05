@@ -12,10 +12,7 @@ function ContactMe() {
         message: ''
     })
 
-    console.log(input)
-
     function changeInput(event) {
-        // console.log(event)
         const {
             target: {
                 name, value
@@ -48,7 +45,6 @@ function ContactMe() {
 
         axios(config)
             .then(function (response) {
-                console.log(JSON.stringify(response.data));
             })
             .catch(function (error) {
                 console.log(error);
