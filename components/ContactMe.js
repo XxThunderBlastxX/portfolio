@@ -1,23 +1,62 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from "next/link";
-
-// import {InboxInIcon} from '@heroicons/react/'
+import axios from 'axios';
 
 function ContactMe() {
+    const [disable, setDisable] = useState(false)
+    const [input, setInput] = useState({
+        fName: '',
+        lName: '',
+        subject: '',
+        email: '',
+        message: ''
+    })
+
+    console.log(input)
+
+    function changeInput(event) {
+        // console.log(event)
+        const {
+            target: {
+                name, value
+            }
+        } = event
+        setInput(old => {
+            return {
+                ...old,
+                [name]: value
+            }
+        })
+
+    }
+
+    function sendMessage() {
+        setDisable(true)
+
+        let data = {
+            ...input, name: input.fName.trim() + " " + input.lName.trim()
+        }
+
+        let config = {
+            method: 'post',
+            url: '/api/send_message',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            data: data
+        };
+
+        axios(config)
+            .then(function (response) {
+                console.log(JSON.stringify(response.data));
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+
     return (
         <section id="contact-me" className={"relative justify-center items-center h-screen flex contact font-NovoMono"}>
-            {/*<div className={"bounce__text bottom-1/2 text-6xl font-NovoMono pb-8"}>*/}
-            {/*    <div className={"font-black"}>C</div>*/}
-            {/*    <div className={"font-black"}>o</div>*/}
-            {/*    <div>n</div>*/}
-            {/*    <div>t</div>*/}
-            {/*    <div>a</div>*/}
-            {/*    <div>c</div>*/}
-            {/*    <div>t</div>*/}
-            {/*    <div className={"w-3.5"}/>*/}
-            {/*    <div>M</div>*/}
-            {/*    <div>e</div>*/}
-            {/*</div>*/}
             <div className={"container__css"}>
                 <div className={"contact-info"}>
                     <div>
@@ -70,29 +109,33 @@ function ContactMe() {
                         <div className={"contact-form-heading"}>e</div>
                     </div>
                     <div className={'form-box'}>
-                        <div className={"input-box w50"}>
-                            <input type={"text"} required={true}/>
+                        <div className={"input-box w50 "}>
+                            <input type={"text"} value={input.fName} onChange={changeInput} required={true}
+                                   name={'fName'}/>
                             <span>First Name</span>
                         </div>
                         <div className={"input-box w50"}>
-                            <input type={"text"} required={true}/>
+                            <input type={"text"} value={input.lName} onChange={changeInput} required={true}
+                                   name={'lName'}/>
                             <span>Last Name</span>
                         </div>
                         <div className={"input-box w50"}>
-                            <input type={"text"} required={true}/>
+                            <input type={"text"} value={input.email} onChange={changeInput} required={true}
+                                   name={'email'}/>
                             <span>Email Address</span>
                         </div>
                         <div className={"input-box w50"}>
-                            <input type={"text"} required={true}/>
+                            <input type={"text"} value={input.subject} onChange={changeInput} required={true}
+                                   name={'subject'}/>
                             <span>Subject</span>
                         </div>
                         <div className={"input-box w100"}>
-                            <textarea required={true}/>
+                            <textarea value={input.message} onChange={changeInput} required={true} name={'message'}/>
                             <span>Message</span>
                         </div>
                         <div className={" input-box w100 "}>
                             <input className={'rounded-lg hover:shadow-2xl'} type={"submit"} value={'Send'}
-                                   required={true}/>
+                                   required={true} onClick={sendMessage} disabled={disable}/>
                         </div>
                     </div>
                 </div>
