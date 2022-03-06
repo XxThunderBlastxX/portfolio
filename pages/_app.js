@@ -19,8 +19,8 @@ function MyApp({Component, pageProps}) {
     return <>
         <Script src={"https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"}
                 strategy={"beforeInteractive"}/>
-        {loading ? <LoadingScreen/> : <Component {...pageProps} />}
-
+        <Component {...pageProps} />
+        {loading && <LoadingScreen/>}
     </>
 
 }
