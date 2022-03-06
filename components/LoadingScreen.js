@@ -1,12 +1,11 @@
 import React from 'react';
 
-
-function LoadingScreen(props) {
+function LoadingScreen() {
     return (
-        <section className={props.loading ? 'h-screen w-full items-center justify-center flex bg-black' : 'hidden'}>
+        <section className={'h-screen w-full items-center justify-center flex bg-black'}>
             <video
-                autoPlay={true} loop={true} muted={true}>
-                <source src={'/loader/loader.mp4'} type={'/video/mp4'}/>
+                autoPlay={true} loop={true} muted={true} className={'w-48 h-48'}>
+                <source src={'/loader/loader.mp4'} type={'video/mp4'}/>
             </video>
         </section>
     );
