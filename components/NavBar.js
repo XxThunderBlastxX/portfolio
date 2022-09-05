@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react'
 
 function NavBar() {
-    const [colorChange, setColorchange] = useState(false);
+    const [colorChange, setColorChange] = useState(false);
     useEffect(function mount() {
         function onScroll() {
             if (window.scrollY >= 150) {
-                setColorchange(true);
+                setColorChange(true);
             } else {
-                setColorchange(false);
+                setColorChange(false);
             }
         }
 
@@ -27,7 +27,7 @@ function NavBar() {
                 className={"flex justify-between select-none font-NovoMono font-black text-xl text-xl mt-4 tracking-widest"}>
                 <div className={"px-5 "}><a href={'#home'}>&lt;Home/&gt; </a></div>
                 <div className={"px-5 "}><a href={'#about-me'}>&lt;About Me/&gt; </a></div>
-                {/*<div className={"px-5 "}><a href={'#projects'}> &lt;Projects/&gt; </a></div>*/}
+                <div className={"px-5 "}><a href={'#projects'}> &lt;Projects/&gt; </a></div>
                 <div className={"px-5 pr-40 "}><a href={'#contact-me'}> &lt;Contact Me/&gt; </a></div>
             </div>
         </div>

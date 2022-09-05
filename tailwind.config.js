@@ -6,7 +6,11 @@ module.exports = {
     theme: {
         fontFamily: {
             "Collonse": ["Collonse", "ui-sans-serif"],
-            "NovoMono": ["NovaMono", "ui-sans-serif"]
+            "NovoMono": ["NovaMono", "ui-sans-serif"],
+            "CenturyGothic": ["CenturyGothic", "ui-sans-serif"],
+            "BebasNeue": ["BebasNeue", "ui-sans-serif"],
+            "Inter": ["Inter", "ui-sans-serif"],
+            "InterLight": ["InterLight", "ui-sans-serif"]
         },
         extend: {
             backgroundImage: {

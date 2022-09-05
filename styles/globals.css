@@ -12,6 +12,7 @@
         user-select: none;
         background: linear-gradient(90deg, rgba(72, 39, 119, 1) 0%, #3e427e 35%, #3e427e 65%, rgba(72, 39, 119, 1) 100%);
         padding-right: 0.32em; /*Scroll Bar*/
+        color: white;
     }
 }
 
@@ -66,6 +67,26 @@
 @font-face {
     font-family: "NovaMono";
     src: url("/fonts/NovaMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("/fonts/CenturyGothic.ttf");
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("/fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "InterLight";
+    src: url("/fonts/Inter-Light.ttf");
 }
 
 .parallax {

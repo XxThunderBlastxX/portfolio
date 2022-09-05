@@ -52,11 +52,11 @@ function ContactMe() {
     }
 
     return (
-        <section id="contact-me" className={"relative justify-center items-center h-screen flex contact font-NovoMono"}>
+        <section id="contact-me" className={"relative justify-center items-center h-screen flex contact "}>
             <div className={"container__css"}>
                 <div className={"contact-info"}>
                     <div>
-                        <h2 className={"font-NovoMono"}>Contact Info</h2>
+                        <h2 className={""}>Contact Info</h2>
                         <ul className={"info"}>
                             <li>
                                 <span><img src={'/images/icons/location.svg'} alt={'Inbox'}
